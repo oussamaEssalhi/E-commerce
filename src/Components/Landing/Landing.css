@@ -1,11 +1,14 @@
 .bg-landing {
-  background-color: antiquewhite;
-  background-image: url(../../assets/3.jpg) !important;
-
+  /*   background-color: antiquewhite; */
+  background-image: url(../../assets/3.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 81px)
 }
+
+
+
+
 
 
 .landing {

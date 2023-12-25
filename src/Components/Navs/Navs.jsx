@@ -80,7 +80,7 @@ const Navs = () => {
                         </Nav>
                         <Nav>
                             <Nav.Link href="#deets" id="call">
-                                1092 092 092
+                                1092 092 0921
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

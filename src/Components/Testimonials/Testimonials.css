@@ -1,0 +1,89 @@
+.testimonials {
+  background-color: var(--main-color);
+  padding: 30px 0;
+}
+
+.heading {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.heading h1 {
+  font-family: 'Playpen Sans', cursive;
+  line-height: 1.7;
+  font-weight: 600;
+
+}
+
+.slide {
+  /* padding: 20px; */
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 160px;
+  margin-top: 10px;
+
+}
+
+.slide p {
+  color: var(--p-color);
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+@media (max-width:767px) {
+  .slide p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .carousel-caption {
+    padding-top: 0 !important;
+  }
+}
+
+.slide span.author {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  display: block;
+}
+
+.slide .carousel {
+  padding: 20px;
+}
+
+.carousel-indicators {
+  margin-bottom: 15px;
+}
+
+.carousel-indicators button {
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  border-radius: 50%;
+  border: 1px solid #DDD;
+}
+
+.carousel-indicators button:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.carousel-indicators .active {
+  background-color: var(--main-color);
+}

@@ -1,0 +1,28 @@
+.subscribe {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.subscribe p {
+  padding: 20px 0 15px;
+  color: var(--p-color);
+}
+
+.contact-subscribe {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.contact-subscribe input {
+  width: 50%;
+  border: 3px solid #e5e5e5;
+  outline: none;
+  padding: 0 20px;
+}
+
+.contact-subscribe input::placeholder {
+  font-weight: 600;
+}

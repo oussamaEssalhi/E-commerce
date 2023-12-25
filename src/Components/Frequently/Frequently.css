@@ -1,0 +1,81 @@
+.frequently-contente {
+  columns: 200px 2;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.frequently-contente p {
+  text-align: justify;
+  color: var(--p-color);
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+.frequently-contente p>span {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+
+}
+
+.frequently-contente p>span>span {
+  color: #f98169;
+  font-size: 28px;
+  font-family: ubuntu;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+
+}
+
+.frequently {
+  padding-bottom: 30px;
+}
+
+.frequently-footer {
+  background-image: url(../../assets/2.jpg);
+  text-align: center;
+  height: 188px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.frequently-footer::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.4;
+}
+
+.frequently-footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.frequently-footer .container .button-primary:hover {
+  background-color: transparent;
+}
+
+.frequently-footer .container h4 {
+  color: white;
+  font-family: 'Playpen Sans', cursive;
+  line-height: 1.7;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}

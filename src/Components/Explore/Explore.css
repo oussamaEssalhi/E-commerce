@@ -1,0 +1,35 @@
+.explore {
+  padding: 80px 0;
+}
+
+.explore .about-content {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  padding: 50px 0;
+}
+
+.explore .about-content h2 {
+  color: var(--title-color);
+  font-family: 'Playpen Sans', cursive;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.explore .about-content p {
+  color: var(--p-color);
+  line-height: 1.7;
+  padding: 10px 0;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width:797px) {
+  .cards {
+    flex-direction: column;
+  }
+}

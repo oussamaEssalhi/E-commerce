@@ -1,0 +1,29 @@
+:root {
+  --main-color: #a82d49;
+  --p-color: #555555;
+  --desc-color: #999;
+  --title-color: #43121d;
+  --border-x: 15px;
+  --icone-color: #f98169;
+  --time-transition: .6s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;500;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-heading {
+  color: var(--title-color);
+  font-family: 'Playpen Sans', cursive;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+;

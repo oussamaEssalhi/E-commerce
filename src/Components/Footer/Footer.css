@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--main-color);
+  text-align: center;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 20px 0;
+ 
+  justify-content: center;
+}
+
+.footer .container {
+  padding: 40px 0;
+}
+
+ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icons .icon {
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.copyghit {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin: 30px 20px;
+}

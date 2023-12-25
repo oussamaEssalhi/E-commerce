@@ -75,7 +75,7 @@ const Navs = () => {
                                 duration={1000}
                                 isDynamic={true}
                             >
-                                FAQ
+                                FAQQ
                             </Link>
                         </Nav>
                         <Nav>
